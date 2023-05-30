@@ -16,5 +16,5 @@ create table user
     isDelete     tinyint default 0 not null comment '是否删除',
     userRole     int     default 0 not null comment '用户角色 0 - 普通用户 1 - 管理员',
     planetCode   varchar(512)      not null comment '星球编号'
-);
+) comment '用户中心';
 
