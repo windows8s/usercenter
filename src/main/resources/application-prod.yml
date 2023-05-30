@@ -9,3 +9,6 @@ spring:
   # session 失效时间
   session:
     timemout: 86400
+
+server:
+  adress: 0.0.0.0
